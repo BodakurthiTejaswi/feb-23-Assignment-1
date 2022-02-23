@@ -1,0 +1,10 @@
+print("Enter element of the list")
+mylist=list(map(int,input().split()))
+max=min=mylist[0]
+for i in mylist:
+    if(max<i):
+        max=i
+    if(min>i):
+        min=i
+print("Maximum element is:",max)
+print("minimum element is :",min)
